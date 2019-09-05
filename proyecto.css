@@ -1,0 +1,267 @@
+*{
+margin: 0px;
+padding: 0%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+border-radius: 2%
+
+}
+body{
+    background-color: tan
+}
+
+.Navegacion{
+    width: 96%;
+    margin: auto;
+    padding: 2%;
+    background: bisque;
+}
+
+.Navegacion ul{
+    list-style: none;
+}
+.Menu >li{
+    /*position: relative;*/
+    display: inline-block;
+}
+.Menu>li>a{
+    display: block;
+    padding:15px 20px;
+    color:olivedrab;
+    text-decoration: none;
+    font-family:the_friday_stroke;
+    font-size: 35px;
+}
+.Menu>li>a:hover{
+    color:blue;
+}
+.Submenu{
+    position: absolute;
+    background: bisque;
+    display: none;
+}
+.Submenu>li>a{
+    text-decoration: none;
+    color: olivedrab;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px
+}
+.Submenu>li>a:hover{
+    color: blue;
+}
+.Menu>li:hover .Submenu{
+    display: block;
+}
+.slider{
+   top: -9px;
+    position: relative;
+    width:650px;
+    height: 350px;
+    margin: auto;
+    background:white;
+    overflow: hidden;
+
+}
+.slider .slider_imagen{
+position: relative;
+width: 400%;
+height: 100%;
+display: flex;
+animation: move 10s infinite linear;
+
+
+
+}
+.slider .slider_imagen li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-radius: 6% 
+}
+
+.slider .slider_imagen li img{
+position: absolute;
+width: 650px;
+height: 100%;
+
+}
+
+@keyframes move{
+    0%, 20%{
+        margin-left: 0%
+    }
+    25%,40%{
+        margin-left: -100%
+    }
+    50%,70%{
+        margin-left: -200%
+    }
+    75%,100%{
+        margin-left: -300%
+    }
+}
+@font-face{
+    font-family: the_friday_stroke;
+    src:url(the_friday_stroke/The\ Friday\ Stroke\ Font\ by\ 7NTypes.otf);
+}
+h1{
+   font-family:the_friday_stroke;
+   color:olivedrab;
+   font-size: 100px;
+   margin: 20px;
+}
+h1:hover{
+    color:red;
+    display: auto;
+}
+p{
+    font-size:20px;
+font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+div.content{
+    width: 90%;
+    margin:auto;
+    padding: 4%;
+    text-align: justify;
+    }
+/* .text-img{ 
+    position:relative;
+    top:150px;
+    margin:auto;
+    width:420;
+    height:240;
+    background-image:url(Platain.jpeg);
+    background-size: 100% 100%;
+    overflow:hidden;
+}  */
+div.recetas{
+    width: 90%;
+    margin:auto;
+    padding: 4%;
+   
+  
+    }
+    
+    *{
+    box-sizing: border-box;
+    }  
+    .col-1{
+        width: 8.33%;
+        }
+        .col-2{
+        width: 16.66%;
+        }
+        .col-3{
+        width: 24.99%;
+        }
+        .col-4{
+        width: 33.33%;
+        }
+        .col-5{
+        width: 41.66%;
+        }
+        .col-6{
+        width: 49.99%;
+        }
+        .col-7{
+        width: 58.32%;
+        }
+        .col-8{
+        width: 66.65%;
+        }
+        .col-9{
+        width: 74.98%;
+        }
+        .col-10{
+        width: 83.31%;
+        }
+        .col-11{
+        width: 91.63%;
+        }
+        .col-12{
+        width: 100%;
+        }
+        [class*="col"] {
+        float: left;
+        }
+        .border{
+        border: 2px solid black;
+        }
+        .padding{
+        padding: 2%;
+        }
+        .row
+        {
+        float: left;
+        width:100%;
+        }
+        .content{
+        padding: 10px;
+        }
+        
+        @media only screen and (max-width: 800px){
+        .col-4, .col-3, .col-2, .col-1, .col-7, .col-8,
+        .col-5,
+        .col-9, .col-10, .col-11, .col-12
+        {
+        width:100%;
+        }
+        }
+        .container{
+        width: 90%;
+        margin:auto;
+        }
+
+        .text-img{
+           position: relative;
+           text-align: center;
+           padding:20px;
+           top:-130px;
+           transform: translateY(175%);
+           overflow: hidden;
+           transition: all 2s;
+           text-decoration: none;
+           color: white;
+          
+
+        }
+
+        .recept img{
+            height: 200px;
+            position: relative;
+            
+        }
+      .text-img:hover{
+        transform: translateY(0%);
+        background-color: rgba(0,0,0,0.5);
+        
+        }
+        .recept img:hover +.text-img{
+            
+    transform: translateY(0%);
+    width: 100%;
+
+background-color: rgba(0,0,0,0.5);
+
+height: px;
+   
+            } 
+            .recept img:hover{
+
+opacity: 0.5
+            }
+        
+ h3{
+    font-family:the_friday_stroke;
+    color:olivedrab;
+    font-size: 45px;
+ }  
+ h2{
+    font-family:the_friday_stroke;
+    color:olivedrab; 
+    font-size: 30px;
+ } 
+  h2:hover{
+    color: red;
+    display: auto;
+  }
